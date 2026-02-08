@@ -1,0 +1,21 @@
+{
+  "name": "playwright-e2e-automation",
+  "version": "1.0.0",
+  "description": "Playwright end to end test with AI automation",
+  "keywords": [
+    "Playwright",
+    "automation"
+  ],
+  "license": "ISC",
+  "author": "Bakthavachalam",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {},
+  "dependencies": {
+    "playwright": "^1.58.2"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.2.2"
+  }
+}
