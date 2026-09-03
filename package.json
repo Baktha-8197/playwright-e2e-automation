@@ -10,12 +10,16 @@
   "author": "Bakthavachalam",
   "type": "commonjs",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "login": "npx playwright test tests/functional/loginfunction.spec.ts --headed",
+    "inventory": "npx playwright test tests/functional/inventornclearally.spec.ts --headed"
+  },
   "dependencies": {
     "playwright": "^1.58.2"
   },
   "devDependencies": {
     "@playwright/test": "^1.58.2",
-    "@types/node": "^25.2.2"
+    "@types/node": "^25.2.2",
+    "allure-playwright": "^3.4.5"
   }
 }
